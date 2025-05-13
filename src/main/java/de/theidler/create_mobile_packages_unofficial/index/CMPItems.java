@@ -1,0 +1,20 @@
+package de.theidler.create_mobile_packages_unofficial.index;
+
+import com.tterrag.registrate.util.entry.ItemEntry;
+import de.theidler.create_mobile_packages_unofficial.CreateMobilePackages;
+import de.theidler.create_mobile_packages_unofficial.items.drone_controller.DroneController;
+
+
+public class CMPItems {
+
+    static {
+        CreateMobilePackages.REGISTRATE.setCreativeTab(CMPCreativeModeTabs.CREATE_MOBILE_PACKAGES_TAB);
+    }
+
+    public static final ItemEntry<DroneController> DRONE_CONTROLLER =
+            CreateMobilePackages.REGISTRATE.item("drone_controller", DroneController::new)
+                    .register();
+
+    public static void register() {
+    }
+}

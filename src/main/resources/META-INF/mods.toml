@@ -11,7 +11,7 @@ logoFile = "${mod_logo}"
 displayURL = "${mod_display_url}"
 
 description='''${mod_description}'''
-[[dependencies.${ mod_id }]]
+[[dependencies.${mod_id}]]
 modId = "forge"
 mandatory = true
 versionRange = "${forge_version_range}"
