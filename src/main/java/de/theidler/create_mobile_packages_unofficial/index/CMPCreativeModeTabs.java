@@ -23,7 +23,7 @@ public class CMPCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> CREATE_MOBILE_PACKAGES_TAB = CREATIVE_MODE_TABS.register("create_mobile_packages_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.create_mobile_packages"))
+                    .title(Component.translatable("itemGroup.create_mobile_packages_unofficial"))
                     .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
                     .icon(CMPBlocks.DRONE_PORT::asStack)
                     .displayItems(new RegistrateDisplayItemsGenerator())

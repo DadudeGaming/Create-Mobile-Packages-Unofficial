@@ -287,7 +287,7 @@ public void updatePackageEntity() {
 
         if (pReason == RemovalReason.KILLED && packageEntity != null) {
             if (this.targetPlayer != null) {
-                targetPlayer.displayClientMessage(Component.translatable("create_mobile_packages.robo_entity.death", Math.round(this.getX()), Math.round(this.getY()), Math.round(this.getZ()), targetPlayer.getName().getString()), false);
+                targetPlayer.displayClientMessage(Component.translatable("create_mobile_packages_unofficial.robo_entity.death", Math.round(this.getX()), Math.round(this.getY()), Math.round(this.getZ()), targetPlayer.getName().getString()), false);
             }
         }
         // unload all chunks
@@ -321,7 +321,7 @@ public void updatePackageEntity() {
      */
     public void updateDisplay(Player player) {
         if (player == null) return;
-        player.displayClientMessage(Component.translatable("create_mobile_packages.robo_entity.eta", calcETA(player)), true);
+        player.displayClientMessage(Component.translatable("create_mobile_packages_unofficial.robo_entity.eta", calcETA(player)), true);
     }
 
     /**
