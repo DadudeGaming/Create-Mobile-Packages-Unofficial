@@ -10,6 +10,8 @@ import net.createmod.ponder.api.scene.Selection;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.ItemStack;
+import de.theidler.create_mobile_packages_unofficial.index.CMPBlocks;
+
 
 public class DronePortScenes {
     public static void dronePortScene(SceneBuilder builder, SceneBuildingUtil util) {
@@ -24,6 +26,9 @@ public class DronePortScenes {
         BlockPos packager = util.grid()
                 .at(3, 2, 5);
         Selection belt = util.select().fromTo(3, 1, 0, 3, 1, 7);
+
+        scene.world().setBlock(dronePort, CMPBlocks.DRONE_PORT.getDefaultState(), false);
+
 
         // Belt
         scene.world().setKineticSpeed(belt, -24);
