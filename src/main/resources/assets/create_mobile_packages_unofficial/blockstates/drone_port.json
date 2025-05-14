@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "open=false": { "model": "create_mobile_packages_unofficial:block/drone_port" },
+    "open=true": { "model": "create_mobile_packages_unofficial:block/drone_port_open" }
+  }
+}

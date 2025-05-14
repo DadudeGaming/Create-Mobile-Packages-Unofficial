@@ -172,7 +172,7 @@ public static boolean sendPackageToPlayer(Player player, ItemStack itemStack) {
     if (player == null || itemStack.isEmpty()) {
         return false;
     }
-    player.displayClientMessage(Component.translatableWithFallback("create_mobile_packages.drone_port.send_items", "Send Items to Player"), true);
+    player.displayClientMessage(Component.translatableWithFallback("create_mobile_packages_unofficial.drone_port.send_items", "Send Items to Player"), true);
 
     if (isPlayerInventoryFull(player)) {
         return false;
