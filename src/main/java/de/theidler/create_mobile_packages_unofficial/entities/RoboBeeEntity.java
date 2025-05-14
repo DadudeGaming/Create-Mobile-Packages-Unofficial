@@ -47,6 +47,11 @@ public class RoboBeeEntity extends RoboEntity {
     protected void doPush(Entity entity) {
     }
 
+    @Override
+    public boolean isAttackable() {
+        return false; // Explicitly make the entity not attackable
+    }
+
     public static AttributeSupplier.Builder createAttributes() {
         return Mob.createMobAttributes()
                 .add(Attributes.MAX_HEALTH, 10.0D)
