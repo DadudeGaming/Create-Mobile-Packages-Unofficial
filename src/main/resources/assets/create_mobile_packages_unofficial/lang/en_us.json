@@ -3,6 +3,7 @@
   
   "block.create_mobile_packages_unofficial.drone_port": "Drone Port",
   "item.create_mobile_packages_unofficial.drone_port": "Drone Port",
+  "entity.create_mobile_packages_unofficial.robo_bee": "Robo Bee",
 
   "item.create_mobile_packages_unofficial.drone_controller": "Drone Controller",
   "item.create_mobile_packages_unofficial.drone_controller.screen_title": "Drone Controller",
@@ -32,7 +33,6 @@
   "create_mobile_packages_unofficial.ponder.drone_port_player.text_9": "Other players can now interact with the shop",
   "create_mobile_packages_unofficial.ponder.drone_port_player.text_10": "When checking out at the cashier, the bought items will be placed into a package with their username as the address",
   "create_mobile_packages_unofficial.ponder.drone_port_player.text_11": "From there, they can be transported to a drone port, and sent to the player",
-
 
   "create_mobile_packages_unofficial.robo_entity.death": "Robo Bee died at X %1$s Y %2$s Z %3$s with a Package for %4$s",
   "create_mobile_packages_unofficial.robo_entity.eta": "Package will arrive in %1$s seconds"
