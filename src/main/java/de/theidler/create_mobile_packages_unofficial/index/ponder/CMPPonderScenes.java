@@ -11,6 +11,7 @@ public class CMPPonderScenes {
     public static void register(PonderSceneRegistrationHelper<ResourceLocation> helper) {
         PonderSceneRegistrationHelper<ItemProviderEntry<?>> HELPER = helper.withKeyFunction(RegistryEntry::getId);
         HELPER.forComponents(CMPBlocks.DRONE_PORT)
-                .addStoryBoard("drone_port", DronePortScenes::dronePortScene);
+                .addStoryBoard("drone_port/main", DronePortScenes::dronePortScene)
+                .addStoryBoard("drone_port/player", DronePortScenes::dronePortScenePlayer);
     }
 }

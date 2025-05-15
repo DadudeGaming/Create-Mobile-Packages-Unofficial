@@ -1,17 +1,16 @@
 <p align="center"><img src="https://github.com/user-attachments/assets/f36c5f43-2852-40fb-8535-4e7ad269eeda" alt="Logo" width="500"></p>
-<h1 align="center">Create: Mobile Packages  <br>
-  <a href="https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages"><img src="https://cf.way2muchnoise.eu/1232978.svg" alt="CF"></a>
-  <a href="https://modrinth.com/mod/create-mobile-packages"><img src="https://img.shields.io/modrinth/dt/create-mobile-packages?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="Modrinth"></a>
+<h1 align="center">Create: Mobile Packages Unofficial  <br>
   <br></br>
 </h1>
 
 A Minecraft mod that adds support for delivering Create Mod Packages directly to the player.
+Now includes using "@player" as a Package Address when setting up Table Cloths to set the package address of the player making a purchase to their name.
 
 ## Requirements
 - Forge 47.1.3 or newer
 - Create 6.0.4 or newer
 
-## Where to Download?
+## Where to Download The Official Version?
 - Modrinth: https://modrinth.com/mod/create-mobile-packages
 - Curseforge: https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages
 

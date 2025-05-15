@@ -15,10 +15,24 @@
 
   "create_mobile_packages_unofficial.drone_port.send_items": "Sent Items to Player",
 
-  "create_mobile_packages_unofficial.ponder.drone_port.header": "Drone Port",
+  "create_mobile_packages_unofficial.ponder.drone_port.header": "Using Drone Ports",
   "create_mobile_packages_unofficial.ponder.drone_port.text_1": "The Drone Port sends Packages to Players",
   "create_mobile_packages_unofficial.ponder.drone_port.text_2": "Set the Package address to the Player's name",
-  "create_mobile_packages_unofficial.ponder.drone_port.text_3": "The Package will be sent to the Player",
+  "create_mobile_packages_unofficial.ponder.drone_port.text_3": "The Package will be sent to the Player by drone",
+
+  "create_mobile_packages_unofficial.ponder.drone_port_player.header": "Shop Drone Delivery",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_1": "A player who purchases a package can be automatically assigned as the package address",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_2": "Start with the shop’s inventory, a Packager and Stock link",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_3": "Bind a Stock ticker to the link and place it in the shop",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_4": "Employ a mob or blaze burner as the shop keeper",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_5": "Fill the shop inventory with items to be sold",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_6": "To create a new trade, interact with the shop keeper while holding a table cloth",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_7": "In the Package Address box, type @player",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_8": "Once placed, set a price in the item slot on the side",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_9": "Other players can now interact with the shop",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_10": "When checking out at the cashier, the bought items will be placed into a package with their username as the address",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_11": "From there, they can be transported to a drone port, and sent to the player",
+
 
   "create_mobile_packages_unofficial.robo_entity.death": "Robo Bee died at X %1$s Y %2$s Z %3$s with a Package for %4$s",
   "create_mobile_packages_unofficial.robo_entity.eta": "Package will arrive in %1$s seconds"
