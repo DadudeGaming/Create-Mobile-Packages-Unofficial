@@ -1,40 +1,52 @@
-<p align="center"><img src="https://github.com/user-attachments/assets/f36c5f43-2852-40fb-8535-4e7ad269eeda" alt="Logo" width="500"></p>
-<h1 align="center">Create: Mobile Packages Unofficial  <br>
-  <br></br>
-</h1>
+![Logo](https://github.com/user-attachments/assets/f36c5f43-2852-40fb-8535-4e7ad269eeda)
 
-A Minecraft mod that adds support for delivering Create Mod Packages directly to the player.
-Now includes using "@player" as a Package Address when setting up Table Cloths to set the package address of the player making a purchase to their name.
+# Create: Mobile Packages Unofficial
+
+
+
+A Minecraft mod that adds support for delivering Create Mod Packages directly to the player. Now includes using "@player" as a Package Address when setting up Table Cloths to set the package address of the player making a purchase to their name.
+
+## Changes from the official
+
+*   The Robo Bee can't be hit
+*   You can put "@player" in the address box while making a shop (Configuring a table cloth)
+*   The package will now be addressed to the player that clicks the shop keeper with the shopping list
+*   Automated delivery!
+*   An additional ponder menu on the drone port explaining this
+*   Now works with frogports and chain conveyors!
+*   Simply set the shop address up as Shop@player and you can use Shop* as the frogport name
+*   The RoboBee now removes any text before and including the @ in the address. This isolates for the username when @ is present.
 
 ## Requirements
-- Forge 47.1.3 or newer
-- Create 6.0.4 or newer
+
+*   Forge 47.1.3 or newer
+*   Create 6.0.4 or newer
 
 ## Where to Download The Official Version?
-- Modrinth: https://modrinth.com/mod/create-mobile-packages
-- Curseforge: https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages
+
+*   Modrinth: [https://modrinth.com/mod/create-mobile-packages](https://modrinth.com/mod/create-mobile-packages)
+*   Curseforge: [https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages](https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages)
 
 ## Items
+
 ### Drone Port
+
 The Drone Port is a specialized block that automates the delivery of Create mod Packages to players or other Drone Ports. It now features a menu with an inventory, where packages can be inserted manually or automatically using devices like Funnels, Chutes, or Hoppers. The station reads the address label on each package and dispatches it accordingly — either delivering the package to a player whose name matches the address or forwarding it to another Drone Port.
 
 ![drone Port](https://github.com/user-attachments/assets/3b15287e-44fc-4ebc-9e59-a38fc2a5da49)
 
 #### RoboBee
+
 The RoboBee is an entity spawned by the Drone Port to carry packages to their destination. It follows the address on the package, delivering directly to players or between Drone Ports as needed.
 
 ![robo_bee](https://github.com/user-attachments/assets/9b78670f-a2f8-4343-bd58-5936103a9596)
 
 ### Drone Controller
+
 The Drone Controller is a handheld device that integrates with a Create mod network, allowing players to request packages remotely. Once linked to a Stock Ticker, it provides a Stockkeeper interface, enabling players to request items on the go without needing direct access to a Stockkeeper.
 
 ![Controller](https://github.com/user-attachments/assets/d8a85e58-3ffa-4c2a-8b74-48f6c2b76642)
 
 ## Gallery
 
-![image](https://github.com/user-attachments/assets/80b6f028-61f9-415a-aa4d-bd911d1d1997)
-![2025-04-26_18 50 01](https://github.com/user-attachments/assets/d72e3a48-b483-4a6a-8fa8-ead40c0378fb)
-![2025-04-26_18 50 41](https://github.com/user-attachments/assets/8cbd9682-4d5f-4794-ba9a-21fde17896f1)
-![2025-04-26_18 50 22](https://github.com/user-attachments/assets/4d6c14af-a424-43c3-b0e5-4059b0de4202)
-![2025-04-26_18 50 58](https://github.com/user-attachments/assets/8632046a-65a3-45e8-ab9a-7ba53ef235b4)
-
+![image](https://github.com/user-attachments/assets/80b6f028-61f9-415a-aa4d-bd911d1d1997) ![2025-04-26_18 50 01](https://github.com/user-attachments/assets/d72e3a48-b483-4a6a-8fa8-ead40c0378fb) ![2025-04-26_18 50 41](https://github.com/user-attachments/assets/8cbd9682-4d5f-4794-ba9a-21fde17896f1) ![2025-04-26_18 50 22](https://github.com/user-attachments/assets/4d6c14af-a424-43c3-b0e5-4059b0de4202) ![2025-04-26_18 50 58](https://github.com/user-attachments/assets/8632046a-65a3-45e8-ab9a-7ba53ef235b4)
