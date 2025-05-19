@@ -33,6 +33,7 @@
   "create_mobile_packages_unofficial.ponder.drone_port_player.text_9": "Other players can now interact with the shop",
   "create_mobile_packages_unofficial.ponder.drone_port_player.text_10": "When checking out at the cashier, the bought items will be placed into a package with their username as the address",
   "create_mobile_packages_unofficial.ponder.drone_port_player.text_11": "From there, they can be transported to a drone port, and sent to the player",
+  "create_mobile_packages_unofficial.ponder.drone_port_player.text_12": "For use with the Frogport, when setting up the Tablecloth, put a package address before the @player (such as Shop@player), then in the Frogport name it Shop*. The Droneport automatically removes any text before and including the @",
 
   "create_mobile_packages_unofficial.robo_entity.death": "Robo Bee died at X %1$s Y %2$s Z %3$s with a Package for %4$s",
   "create_mobile_packages_unofficial.robo_entity.eta": "Package will arrive in %1$s seconds"

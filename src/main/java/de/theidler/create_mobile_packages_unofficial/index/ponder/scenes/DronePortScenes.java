@@ -13,6 +13,8 @@ import com.simibubi.create.foundation.ponder.CreateSceneBuilder;
 import com.simibubi.create.infrastructure.ponder.scenes.highLogistics.PonderHilo;
 import net.createmod.catnip.math.Pointing;
 import net.createmod.ponder.api.PonderPalette;
+import net.createmod.ponder.api.element.ElementLink;
+import net.createmod.ponder.api.element.ParrotElement;
 import net.createmod.ponder.api.element.ParrotPose;
 import net.createmod.ponder.api.scene.SceneBuilder;
 import net.createmod.ponder.api.scene.SceneBuildingUtil;
@@ -142,13 +144,17 @@ public class DronePortScenes {
                 .position(1, 2, 2);
         Selection droneport = util.select()
                 .position(1, 2, 1);
+        Selection frogport = util.select()
+                .position(3, 1, 3);
+        Selection all = util.select()
+                        .fromTo(0, 1, 0, 6, 3, 7);
 
         scene.idle(10);
 
         scene.world()
                 .showSection(seat, Direction.DOWN);
         scene.idle(2);
-        scene.special()
+        ElementLink<ParrotElement> myParrot = scene.special()
                 .createBirb(util.vector()
                                 .centerOf(util.grid()
                                         .at(3, 1, 2)),
@@ -407,5 +413,27 @@ public class DronePortScenes {
                 .placeNearTarget();
         scene.idle(100);
 
+        scene.world()
+                .hideSection(all, Direction.DOWN);
+        scene.world()
+                .hideSection(cogs, Direction.DOWN);
+        scene.world()
+                .hideSection(largeCog, Direction.DOWN);
+        scene.special().hideElement(myParrot, Direction.DOWN);
+        scene.idle(25);
+        scene.world()
+                .showSection(frogport, Direction.DOWN);
+
+        scene.idle(25);
+
+        scene.overlay()
+                .showText(200)
+                .text("For use with the Frogport, when setting up the Tablecloth, put a package address before the @player (such as Shop@player), then in the Frogport name it Shop*. The Droneport automatically removes any text before and including the @")
+                .attachKeyFrame()
+                .colored(PonderPalette.GREEN)
+                .pointAt(util.vector()
+                        .topOf(3, 1, 3))
+                .placeNearTarget();
+        scene.idle(210);
     }
 }

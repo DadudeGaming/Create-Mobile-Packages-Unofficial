@@ -120,11 +120,20 @@ public class RoboEntity extends Mob {
             this.targetBlockEntity = getClosestDronePort(level(), this.blockPosition());
             return;
         }
+        String address = PackageItem.getAddress(itemStack);
+        // Trim everything before and including the '@' symbol if it exists
+        int atIndex = address.indexOf('@');
+        if (atIndex != -1) {
+            address = address.substring(atIndex + 1);
+        }
+
+        String finalAddress = address;
+
         level().players().stream()
-                .filter(player -> player.getName().getString().equals(PackageItem.getAddress(itemStack)))
+                .filter(player -> player.getName().getString().equals(finalAddress))
                 .findFirst()
                 .ifPresentOrElse(player -> targetPlayer = player,
-                        () -> targetBlockEntity = getClosestDronePort(level(), PackageItem.getAddress(itemStack), this.blockPosition()));
+                        () -> targetBlockEntity = getClosestDronePort(level(), finalAddress, this.blockPosition()));
     }
 
     /**

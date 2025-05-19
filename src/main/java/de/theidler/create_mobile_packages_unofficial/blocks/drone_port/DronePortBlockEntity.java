@@ -79,6 +79,12 @@ public class DronePortBlockEntity extends PackagePortBlockEntity {
         if (level == null || !PackageItem.isPackage(itemStack)) return;
         String address = PackageItem.getAddress(itemStack);
 
+        // Trim everything before and including the '@' symbol if it exists
+        int atIndex = address.indexOf('@');
+        if (atIndex != -1) {
+            address = address.substring(atIndex + 1);
+        }
+
         // Check if the item can be sent to a player.
         for (Player player : level.players()) {
             if (player.getName().getString().equals(address)) {
